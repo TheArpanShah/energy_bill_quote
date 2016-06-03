@@ -126,6 +126,9 @@ h6 {
 	font-size: 16px;
 }
 
+h5.energy-partners-heading{
+	font-size: 30px;
+}
 /*---------------------------------------
  **   BUTTONS                        -----
 -----------------------------------------*/
@@ -278,6 +281,42 @@ h6 {
 	bottom: -9px;
 	left: 12.5%;
 }
+
+.energy-partners-heading:before{
+	position: absolute;
+	margin: auto;
+	z-index: 1;
+	content: "";
+	width: 75%;
+	height: 2px;
+	background-color: white;
+	bottom: -9px;
+	left: 12.5%;
+}
+
+/*.energy-partners {
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+}*/
+
+/*.eligo_energy_logo {
+	background-color: white;
+}
+
+.champion_logo {
+	background-color: white;
+}
+
+.constellation_logo {
+	background-color: white;
+}*/
+
+.energy-partners-heading{
+
+	color: blue;
+}
+
 .blue-border-bottom:before {
 	position: absolute;
 	margin: auto;
